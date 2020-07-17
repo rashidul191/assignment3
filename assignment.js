@@ -54,3 +54,23 @@ console.log(floor);
 
 // .........end..........
 
+
+
+// .........tinyFrined..........
+
+function tinyFrined(name){
+    var smallName = name[0].length;
+    for(var i = 0; i< name.length; i++){
+        var currentName = name[i];
+        if(currentName.length > smallName.length){
+             currentName = smallName;
+        }
+    }
+    return currentName;
+}
+// output...........
+
+var result = tinyFrined(['rashidul', 'rakibul', 'rased', 'rubel']);
+console.log(result);
+
+// ...........end.........
