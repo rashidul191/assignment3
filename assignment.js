@@ -69,7 +69,6 @@ function tinyFrined(name){
     return currentName;
 }
 // output...........
-
 var result = tinyFrined(['rashidul', 'rakibul', 'rased', 'rubel']);
 console.log(result);
 
